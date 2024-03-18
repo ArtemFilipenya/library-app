@@ -44,15 +44,15 @@ export const Carousel = () => {
 
     if (isLoading) {
         return (
-          <SpinnerLoading/>
+            <SpinnerLoading/>
         );
     }
 
     if (httpError) {
         return (
-          <div className='container m-5'>
-              <p>{httpError}</p>
-          </div>
+            <div className='container m-5'>
+                <p>{httpError}</p>
+            </div>
         );
     }
 
